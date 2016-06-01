@@ -1,0 +1,5 @@
+FILES="ClassicDiscretization2D.cpp SweptDiscretization2D.cpp UpPyramid.cpp DownPyramid.cpp VerticalBridge.cpp HorizontalBridge.cpp Main.cpp Socket.cpp ServerSocket.cpp base64.cpp"
+BIN="stream.exe"
+
+#mpicxx -O3 $FILES -o /home/maitham/shared/stream.exe
+mpicxx -O3 $FILES -o stream.exe
